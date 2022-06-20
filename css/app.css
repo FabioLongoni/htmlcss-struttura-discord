@@ -33,12 +33,12 @@ header {
 }
 
 .logo, .link, .login {
-    border: 1px dashed black ;
+    border: 2px dashed black ;
     padding: 5px;
 }
 
 .section {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .section-first {
@@ -48,20 +48,20 @@ header {
 .content-section-first {
     flex-basis: 75%;
     height: 350px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     margin: auto;
     background-color: #ee82ee;
 }
 
 .content-section-main {
-    border: 1px dashed black;
+    border: 2px dashed black;
     height: 390px;
     flex-basis: 100%;
 }
 
 .col-1-main {
     flex-basis: 60%;
-    border: 1px dashed black;
+    border: 2px dashed black;
     height: 100%;
     background-color:#9e10ff ;
 }
@@ -82,7 +82,48 @@ header {
 
 .content-section-last {
     height: 780px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     flex-basis: 100%;
     background-color: #228b22;
+}
+
+.footer1 {
+    padding: 15px 0 35px 0;
+    border-bottom: 2px solid white;
+    background-color: #23272a ;
+}
+
+.first-footer {
+    border: 2px dashed black;
+    height: 450px;
+}
+
+.col-2-footer1, .col-3-footer1, .col-4-footer1, .col-5-footer1 {
+    flex-basis: 17%;
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+
+.col-1-footer1 {
+    flex-basis: 32%;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.footer2 {
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+    background-color: #23272a;
+}
+
+.last-footer {
+    justify-content: space-between;
+    background-color:#7fffd4 ;
+    padding: 20px 0 20px 0;
+}
+
+.logo1, .bottone {
+    padding: 5px;
+    border: 2px dashed black;
+    background-color:#ffb6c1;
 }
